@@ -1,4 +1,4 @@
-pipeline {
+ipipeline {
     agent none   // IMPORTANT: controller does NOT run jobs
 
     options {
@@ -12,7 +12,7 @@ pipeline {
             agent any
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/YOUR_ORG/jenkins-ci-lab.git'
+                    url: 'https://github.com/https://github.com/ErmekErkimbaev/jenkins-ci-lab.git/jenkins-ci-lab.git'
             }
         }
 
