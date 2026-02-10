@@ -12,7 +12,7 @@ pipeline {
             agent any
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/ErmekErkimbaev/jenkins-ci-lab.git/'
+                    url: 'https://github.com/ErmekErkimbaev/'
             }
         }
 
