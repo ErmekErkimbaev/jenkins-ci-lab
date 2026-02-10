@@ -17,7 +17,7 @@ pipeline {
         }
 
         stage('Build on mac-agent') {
-            agent { label 'mac-agent' }
+            agent { label 'linux' }
             steps {
                 sh '''
                   echo "Build stage"
@@ -27,7 +27,7 @@ pipeline {
         }
 
         stage('Test on node-mac1') {
-            agent { label 'node-mac1' }
+            agent { label 'linux' }
             steps {
                 sh '''
                   echo "Test stage"
